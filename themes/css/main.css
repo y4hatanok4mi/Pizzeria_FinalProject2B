@@ -784,7 +784,7 @@ section.our_client .row{
 
 /* Responsive
 ----------------------------------------------------------------------------- */
-@media (max-width: 767px){	
+@media (max-width: 768px){	
 	#top-bar input{
 		*padding-right:0 !important;
 	}
