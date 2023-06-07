@@ -838,3 +838,58 @@ section.our_client .row{
 		border-bottom:1px solid #eee;
 	}
 }
+
+@media (max-width: 600px){	
+	#top-bar input{
+		*padding-right:0 !important;
+	}
+	.navbar-inner.main-menu{
+		border-bottom:0 !important;
+	}
+	.navbar-inner.main-menu img{
+		margin-left: 52px;
+		height: 70px;
+		width: 70px;
+	}
+	section.homepage-slider{
+		display:none;
+	}
+	.account.pull-right{
+		width:100%;
+		text-align:center;
+	}
+	.myCarousel .thumbnails li{
+		border-bottom:1px solid #eee;
+		margin-bottom:0;
+	}
+	.product-box{
+		padding-top:10px;
+		padding-bottom:10px;	
+	}
+	.product-box:hover{
+		background-color:#f8f8f8;
+	}
+	.product-box:hover a{
+		color:#333 !important;
+	}
+	.dev-box{
+		left:0;
+	}
+	#menu ul{display: none;}
+	.navbar-inner.main-menu a.logo{
+		left:50%;
+		margin-left:-99px;
+	}
+	#copyright,#footer-bar{
+		padding:0 10px;
+	}
+	#footer-bar .nav{overflow:hidden}
+	#footer-bar .nav li{float:left;}
+	#footer-bar  .nav a:hover{
+		background-color:transparent;
+		color:#eb4800;
+	}
+	.feature_box .service{	
+		border-bottom:1px solid #eee;
+	}
+}
